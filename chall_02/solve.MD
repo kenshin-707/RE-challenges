@@ -11,7 +11,7 @@ Bypass the password verification to retrieve the flag.
 2. **View the source code**
    - Examine the source code to find the password for viewing the code in linux, go to terminal and execute the following command
      ```bash
-     chmod +x <file_name>
+     cat <file_name>
      ```
 3. **Make the binary executable**
    - Use the following command in the terminal to change permissions:
@@ -30,4 +30,9 @@ Bypass the password verification to retrieve the flag.
    - After successful verification, the flag will be displayed
 
 ## Flag
-Once you've bypassed the password verification, you'll receive the flag!
+Once you've bypassed the password verification, you'll receive the flag from the service which is runnig this software !
+To use software service which is hosted in the network , use netcat command for it  . Use this command 
+   - Run the binary using:
+     ```bash
+       nc <ip addr >
+     ```
